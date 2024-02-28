@@ -1,8 +1,71 @@
-# React + Vite
+# Quick Start: Vanilla React with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a template for setting up a Vanilla React project using Vite. Vite is a next-generation front-end tooling that provides a fast development server with hot module replacement (HMR) and a lightning-fast build process.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before you begin, ensure you have the following installed on your machine:
+- Node.js (version 12 or later)
+- npm (Node Package Manager) or Yarn
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone <repository URL>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd <project directory>
+   ```
+
+3. Install dependencies:
+
+   If you're using npm:
+
+   ```bash
+   npm install
+   ```
+
+   If you're using Yarn:
+
+   ```bash
+   yarn
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   or
+
+   ```bash
+   yarn dev
+   ```
+
+5. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to see your application running.
+
+## Folder Structure
+
+- `public`: Contains static assets that will be served as-is.
+- `src`: Contains your React application code.
+- `index.html`: The main HTML file where your React application is mounted.
+- `main.jsx` or `App.jsx`: The main JavaScript file where your React application is initialized.
+
+## Additional Resources
+
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://reactjs.org/)
+
+## Screenshots
+
+![React Logo](react_logo.png)
+
+![Vite Logo](vite_logo.png)
