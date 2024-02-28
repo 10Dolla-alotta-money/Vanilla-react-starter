@@ -64,8 +64,3 @@ To get started with this project, follow these steps:
 - [Vite Documentation](https://vitejs.dev/)
 - [React Documentation](https://reactjs.org/)
 
-## Screenshots
-
-![React Logo](react_logo.png)
-
-![Vite Logo](vite_logo.png)
