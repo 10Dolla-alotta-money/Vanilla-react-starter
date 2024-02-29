@@ -1,7 +1,7 @@
 # Quick Start: Vanilla React with Vite 
 
 
-![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/cce3be84-3ea3-446e-a44d-a14aa44eaf56)
+![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/86f5761f-80df-44f5-bb7c-51e436e20180)
 
  ![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/edea9777-39f0-4e50-8f37-7d4ab23f7454)
 
