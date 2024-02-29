@@ -1,52 +1,45 @@
 import {
   Card,
-  Input,
   Checkbox,
   Button,
+  Select,
+  Option,
   Typography,
 } from '@material-tailwind/react';
 const LoginForm = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex lex-col m-8 items-center justify-center min-h-32">
       <Card className="w-full max-w-screen-lg sm:w-96">
         <Typography variant="h4" color="blue-gray" className="text-center">
-          Sign Up
+          Put Down Information
         </Typography>
         <Typography color="gray" className="mt-1 mb-8 text-center font-normal">
           Nice to meet you! Enter your details to register.
         </Typography>
+
         <form className="px-4 sm:px-8">
           <div className="mb-4">
-            <Typography variant="h6" color="blue-gray" className="mb-1">
-              Your Name
-            </Typography>
-            <Input
-              size="lg"
-              placeholder="name@mail.com"
-              className="border-t-blue-gray-200 focus:border-t-gray-900"
-            />
+            <Select color="blue" label="Select Option">
+              <Option>Material Tailwind HTML</Option>
+              <Option>Material Tailwind React</Option>
+              <Option>Material Tailwind Vue</Option>
+            </Select>
           </div>
           <div className="mb-4">
-            <Typography variant="h6" color="blue-gray" className="mb-1">
-              Your Email
-            </Typography>
-            <Input
-              size="lg"
-              placeholder="name@mail.com"
-              className="border-t-blue-gray-200 focus:border-t-gray-900"
-            />
+            <Select color="blue" label="Select Option">
+              <Option>Material Tailwind HTML</Option>
+              <Option>Material Tailwind React</Option>
+              <Option>Material Tailwind Vue</Option>
+            </Select>
           </div>
           <div className="mb-4">
-            <Typography variant="h6" color="blue-gray" className="mb-1">
-              Password
-            </Typography>
-            <Input
-              type="password"
-              size="lg"
-              placeholder="********"
-              className="border-t-blue-gray-200 focus:border-t-gray-900"
-            />
+            <Select color="blue" label="Select Option">
+              <Option>Material Tailwind HTML</Option>
+              <Option>Material Tailwind React</Option>
+              <Option>Material Tailwind Vue</Option>
+            </Select>
           </div>
+
           <Checkbox
             label={
               <Typography
