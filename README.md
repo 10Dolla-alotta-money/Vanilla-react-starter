@@ -1,8 +1,9 @@
 # Quick Start: Vanilla React with Vite 
 
 
-![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/041085af-ea68-47a5-ab89-7744bdb12c07)
-![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/edea9777-39f0-4e50-8f37-7d4ab23f7454)
+ ![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/c7e25f7e-a0df-4d63-9bc4-f51fd013dfdf)
+
+ ![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/edea9777-39f0-4e50-8f37-7d4ab23f7454)
 
 
 This is a template for setting up a Vanilla React project using Vite. Vite is a next-generation front-end tooling that provides a fast development server with hot module replacement (HMR) and a lightning-fast build process.
