@@ -1,7 +1,7 @@
 import { AlertIcon } from './Alert.jsx';
 import FeedbackItem from './FeedbackItem.jsx';
 
-const FeedbackList = ({ feedback }) => {
+const FeedbackList = ({ feedback, handleDelete }) => {
   if (!feedback || feedback.length === 0) {
     return <AlertIcon message="No reviews have been added" />;
   }
@@ -9,11 +9,7 @@ const FeedbackList = ({ feedback }) => {
   return (
     <div>
       {feedback.map((item) => (
-        <FeedbackItem
-          key={item.id}
-          item={item}
-          handleDelete={(id) => console.log(id)}
-        />
+        <FeedbackItem key={item.id} item={item} handleDelete={handleDelete} />
       ))}
     </div>
   );

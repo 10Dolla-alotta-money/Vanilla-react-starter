@@ -130,7 +130,7 @@ const NavbarComponent = () => {
       <div className="mx-auto max-w-screen-md py-12">
         <Card className="mb-12 overflow-hidden"></Card>
         <div className="text-center">
-          <Typography variant="h2" color="blue-gray" className="mb-2">
+          <Typography variant="h1" className="mb-2">
             What is LOGO Company
           </Typography>
           <Typography color="gray" className="font-normal">
