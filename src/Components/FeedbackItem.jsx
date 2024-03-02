@@ -1,21 +1,46 @@
-import React from 'react';
+import CustomCard from './Shared/CustomCard.jsx';
+import {
+  Badge,
+  Button,
+  Card as MaterialCard,
+  CardBody,
+  CardFooter,
+  IconButton,
+  Typography,
+} from '@material-tailwind/react';
 
-const FeedbackItem = () => {
+const FeedbackItem = ({ item, handleDelete }) => {
   return (
-    <>
-      <h2 className="text-xl font-semibold mb-4">Feedback</h2>
-      <div className="mb-4">
-        <p className="block text-gray-700 text-sm font-bold mb-2">
-          Rating: {rating} {/* Hardcoded rating displayed */}
-        </p>
+    <CustomCard>
+      <div className="flex flex-col md:flex-row justify-center items-center gap-4 m-8">
+        <Badge
+          content={item.rating}
+          className="m-auto p-auto"
+          placement="top-start"
+        >
+          <MaterialCard className="">
+            <CardBody className="gap-4">
+              <div className="flex items-center justify-between mb-2">
+                <Typography variant="h5" color="blueGray">
+                  Feedback
+                </Typography>
+                <IconButton
+                  variant="text"
+                  size="lg"
+                  onClick={() => handleDelete(item.id)}
+                >
+                  <i className="fas fa-circle-xmark  fa-lg" />
+                </IconButton>
+              </div>
+              <Typography variant="small">{item.text}</Typography>
+            </CardBody>
+            <CardFooter className="pt-0">
+              <Button>Submit</Button>
+            </CardFooter>
+          </MaterialCard>
+        </Badge>
       </div>
-      <div className="mb-4">
-        <p className="block text-gray-700 text-sm font-bold mb-2">Feedback:</p>
-        <p className="px-3 py-2 border border-gray-300 rounded-md">
-          {feedbackText} {/* Hardcoded feedback text displayed */}
-        </p>
-      </div>
-    </>
+    </CustomCard>
   );
 };
 
