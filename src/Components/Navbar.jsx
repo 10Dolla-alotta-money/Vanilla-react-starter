@@ -48,7 +48,7 @@ const NavbarComponent = () => {
   );
   return (
     <div className="">
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+      <Navbar className="fixed top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -130,7 +130,7 @@ const NavbarComponent = () => {
       <div className="mx-auto max-w-screen-md py-12">
         <Card className="mb-12 overflow-hidden"></Card>
         <div className="text-center">
-          <Typography variant="h2" color="blue-gray" className="mb-2">
+          <Typography variant="h1" className="mb-2">
             What is LOGO Company
           </Typography>
           <Typography color="gray" className="font-normal">
