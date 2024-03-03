@@ -25,27 +25,36 @@ const NavbarComponent = () => {
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
-      ></Typography>
+      >
+        🏠 Home
+      </Typography>
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
-      ></Typography>
+      >
+        📦 Products
+      </Typography>
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
-      ></Typography>
+      >
+        🛒 Cart
+      </Typography>
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
-      ></Typography>
+      >
+        💬 Feedback
+      </Typography>
     </ul>
   );
+
   return (
     <div className="">
       <Navbar className="fixed top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
@@ -55,7 +64,7 @@ const NavbarComponent = () => {
             href="#"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            <h1 className="text-xl font-bold">LOGO</h1>
+            <h1 className="text-xl font-bold">LOGO </h1>
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
@@ -131,13 +140,11 @@ const NavbarComponent = () => {
         <Card className="mb-12 overflow-hidden"></Card>
         <div className="text-center">
           <Typography variant="h1" className="mb-2">
-            What is LOGO Company
+            Thanks for shopping with us! 🎉
           </Typography>
           <Typography color="gray" className="font-normal">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
-            autem minima, cupiditate id eum, placeat nulla recusandae debitis
-            soluta iure aperiam a doloribus quod ratione accusamus. Asperiores
-            facere architecto officiis.
+            Tell us how we can improve our products by filling out the feedback
+            below. 💬
           </Typography>
         </div>
       </div>
