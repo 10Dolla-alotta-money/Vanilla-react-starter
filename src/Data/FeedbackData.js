@@ -1,12 +1,12 @@
 const FeedbackData = [
   {
     id: 1,
-    rating: 4,
+    rating: 1,
     text: "The product exceeded my expectations! It's durable, stylish, and offers great value for money.",
   },
   {
     id: 2,
-    rating: 5,
+    rating: 2,
     text: "I'm amazed by the quality of this product! It's exactly what I needed and it arrived quickly.",
   },
   {
@@ -16,7 +16,7 @@ const FeedbackData = [
   },
   {
     id: 4,
-    rating: 2,
+    rating: 4,
     text: "Disappointed with the product. It arrived damaged and doesn't work as described. Would not recommend.",
   },
   {
