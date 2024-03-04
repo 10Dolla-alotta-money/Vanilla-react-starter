@@ -144,7 +144,7 @@ const NavbarComponent = () => {
           </Typography>
           <Typography color="gray" className="font-normal">
             Tell us how we can improve our products by filling out the feedback
-            below. 💬
+            below.
           </Typography>
         </div>
       </div>

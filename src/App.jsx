@@ -8,10 +8,11 @@ import FeedbackForm from './Components/FeedbackForm.jsx';
 
 const App = () => {
   const [feedback, setFeedback] = useState(FeedbackData);
+  const [comment, setComment] = useState('');
 
   const addFeedback = (newFeedback) => {
     newFeedback.id = uuidv4();
-    console.log(newFeedback);
+    setFeedback([newFeedback, ...feedback]);
   };
 
   const handleDeleteClick = (id) => {
