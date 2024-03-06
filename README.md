@@ -9,7 +9,7 @@
 This is a template for setting up a Vanilla React project using Vite. 
 
 
-#Demo  
+## Demo  
 
 https://vanilla-react-starter-1mnuky1sm-10dolla-alotta-money.vercel.app
 
