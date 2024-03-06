@@ -1,9 +1,9 @@
 # Quick Start: Vanilla React with Vite 
 
 
-![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/86f5761f-80df-44f5-bb7c-51e436e20180)
+![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/86f5761f-80df-44f5-bb7c-51e436e20180)    ![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/edea9777-39f0-4e50-8f37-7d4ab23f7454)
 
- ![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/edea9777-39f0-4e50-8f37-7d4ab23f7454)
+
 
 
 This is a template for setting up a Vanilla React project using Vite. 
