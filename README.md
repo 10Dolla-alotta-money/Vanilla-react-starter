@@ -6,7 +6,12 @@
  ![image](https://github.com/Zarman-oss/Vanilla-react-starter/assets/123334173/edea9777-39f0-4e50-8f37-7d4ab23f7454)
 
 
-This is a template for setting up a Vanilla React project using Vite. Vite is a next-generation front-end tooling that provides a fast development server with hot module replacement (HMR) and a lightning-fast build process.
+This is a template for setting up a Vanilla React project using Vite. 
+
+
+#Demo  
+
+https://vanilla-react-starter-1mnuky1sm-10dolla-alotta-money.vercel.app
 
 ## Prerequisites
 
