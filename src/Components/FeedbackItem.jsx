@@ -7,8 +7,11 @@ import {
   IconButton,
   Typography,
 } from '@material-tailwind/react';
+import { useContext } from 'react';
+import FeedbackContext from '../Context/FeedbackContext.jsx';
 
-const FeedbackItem = ({ item, handleDelete }) => {
+const FeedbackItem = ({ item }) => {
+  const { deleteFeedback } = useContext(FeedbackContext);
   return (
     <CustomCard>
       <div className="flex flex-col items-center gap-4 m-8">
@@ -19,7 +22,7 @@ const FeedbackItem = ({ item, handleDelete }) => {
               <IconButton
                 variant="text"
                 size="lg"
-                onClick={() => handleDelete(item.id)}
+                onClick={() => deleteFeedback(item.id)}
               >
                 <i className="fas fa-circle-xmark fa-lg" />
               </IconButton>

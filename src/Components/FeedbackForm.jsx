@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
+import { useContext } from 'react';
+import FeedbackContext from '../Context/FeedbackContext';
 import { Button, Card, CardBody, Typography } from '@material-tailwind/react';
 
-const FeedbackForm = ({ handleAdd }) => {
+const FeedbackForm = () => {
+  const { addFeedback } = useContext(FeedbackContext);
+
   const [text, setText] = useState('');
   const [rating, setRating] = useState('');
   const [btnDisabled, setBtnDisabled] = useState(true);
@@ -36,7 +40,7 @@ const FeedbackForm = ({ handleAdd }) => {
         text,
         rating,
       };
-      handleAdd(newFeedback);
+      addFeedback(newFeedback);
       setText('');
       setRating('');
       setBtnDisabled(true);

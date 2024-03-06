@@ -1,11 +1,12 @@
 import {
+  Button,
   Card,
   Checkbox,
-  Button,
-  Select,
   Option,
+  Select,
   Typography,
 } from '@material-tailwind/react';
+
 const LoginForm = () => {
   return (
     <div className="flex lex-col m-8 items-center justify-center min-h-32">

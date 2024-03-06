@@ -1,7 +1,11 @@
 import { AlertIcon } from './Alert.jsx';
+import { useContext } from 'react';
 import FeedbackItem from './FeedbackItem.jsx';
+import FeedbackContext from '../Context/FeedbackContext.jsx';
 
-const FeedbackList = ({ feedback, handleDelete }) => {
+const FeedbackList = () => {
+  const { feedback } = useContext(FeedbackContext);
+
   if (!feedback || feedback.length === 0) {
     return <AlertIcon message="No reviews have been added" />;
   }
@@ -9,7 +13,7 @@ const FeedbackList = ({ feedback, handleDelete }) => {
   return (
     <div>
       {feedback.map((item) => (
-        <FeedbackItem key={item.id} item={item} handleDelete={handleDelete} />
+        <FeedbackItem key={item.id} item={item} />
       ))}
     </div>
   );
