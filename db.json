@@ -1,19 +1,9 @@
 {
   "feedback": [
     {
-      "id": "1",
-      "rating": "2",
-      "text": "This is feedback item 1 coming from the backend"
-    },
-    {
-      "id": "2",
+      "text": "this is a test to test json server ",
       "rating": "4",
-      "text": "This is feedback item 1 coming from the backend"
-    },
-    {
-      "id": "3",
-      "rating": "1",
-      "text": "This is feedback item 1 coming from the backend"
+      "id": "WCZI3DW"
     }
   ]
 }
